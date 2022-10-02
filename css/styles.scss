@@ -1,4 +1,113 @@
-header{
-    background-color: #525252;
-    color: #fff;
+// Variables
+$dark-color: #221f28;
+$light-color: #c5cae8;
+$medium-color:#354554;
+$contrast-color: #8d3600;
+$group-radius: 15px;
+$ver-mas-radius: 5px;
+$list-item-radius:10px;
+
+
+body{
+    background-color: $light-color;
+}
+.banner{
+    height: 50vh;
+    width: 100%;
+    background-image: url("../img/bg_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-position :center;
+}
+.btn-banner{
+    margin-top: 6vh;
+    background-color: $light-color;
+    color: $dark-color;
+    font-weight: bold;
+}
+.navbar{
+    background-color: $light-color;
+}
+
+.group{
+    margin-top: 1rem;
+    background-color: $dark-color;
+    padding: 1rem 4rem 2rem 4rem;
+    border-radius: $group-radius;
+}
+.h2-group{
+    color: $light-color;
+}
+.btn-course-gp{
+    background-color: $dark-color;
+    color:$light-color
+}
+a.btn-ver-mas{
+    text-decoration: none;
+    background-color: $contrast-color;
+    color: $light-color;
+    border-radius: $ver-mas-radius;
+    padding: .2rem 1rem .2rem 1rem;
+}
+a.navbar-brand{
+    color: $dark-color;
+    font-weight: bolder;
+}
+#navbar-items{
+    background-color: $dark-color;
+    border-radius: $list-item-radius;
+    margin-bottom: 1rem;
+}
+a.nav-link{
+    text-decoration: none;
+    color:$light-color
+}
+a.nav-link:visited{
+    color:$light-color
+}
+.nav .active{
+    background-color: $medium-color !important;
+}
+.img-perfil{
+    border-radius: 50%;
+}
+ul.categoria{
+    list-style: none;
+}
+.course-content{
+    margin-top: 1rem;
+    font-size: large;
+}
+.description-course{
+    background-color: $dark-color;
+    color:$light-color;
+    font-size:large;
+    padding: 2rem 2rem 2rem  2rem;
+}
+
+.valoracion{
+    border: solid $medium-color 2px;
+    padding: 1rem;
+    border-radius: $list-item-radius;
+    margin-bottom: 1rem;
+}
+.p-group{
+    color: $light-color;
+}
+.about-me{
+    margin-top: 1rem;
+}
+.btn-banner a{
+    text-decoration: none;
+    color: $dark-color;
+}
+.btn.submit{
+    background-color: $light-color;
+    color: $dark-color;
+    font-weight: bold;
+}
+.submit{
+    color: $light-color;
+}
+.error{
+    color: #8d3600;
 }

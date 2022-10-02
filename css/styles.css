@@ -1,4 +1,124 @@
-header {
-  background-color: #525252;
-  color: #fff;
+body {
+  background-color: #c5cae8;
+}
+
+.banner {
+  height: 50vh;
+  width: 100%;
+  background-image: url("../img/bg_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-banner {
+  margin-top: 6vh;
+  background-color: #c5cae8;
+  color: #221f28;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #c5cae8;
+}
+
+.group {
+  margin-top: 1rem;
+  background-color: #221f28;
+  padding: 1rem 4rem 2rem 4rem;
+  border-radius: 15px;
+}
+
+.h2-group {
+  color: #c5cae8;
+}
+
+.btn-course-gp {
+  background-color: #221f28;
+  color: #c5cae8;
+}
+
+a.btn-ver-mas {
+  text-decoration: none;
+  background-color: #8d3600;
+  color: #c5cae8;
+  border-radius: 5px;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+a.navbar-brand {
+  color: #221f28;
+  font-weight: bolder;
+}
+
+#navbar-items {
+  background-color: #221f28;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+a.nav-link {
+  text-decoration: none;
+  color: #c5cae8;
+}
+
+a.nav-link:visited {
+  color: #c5cae8;
+}
+
+.nav .active {
+  background-color: #354554 !important;
+}
+
+.img-perfil {
+  border-radius: 50%;
+}
+
+ul.categoria {
+  list-style: none;
+}
+
+.course-content {
+  margin-top: 1rem;
+  font-size: large;
+}
+
+.description-course {
+  background-color: #221f28;
+  color: #c5cae8;
+  font-size: large;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.valoracion {
+  border: solid #354554 2px;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.p-group {
+  color: #c5cae8;
+}
+
+.about-me {
+  margin-top: 1rem;
+}
+
+.btn-banner a {
+  text-decoration: none;
+  color: #221f28;
+}
+
+.btn.submit {
+  background-color: #c5cae8;
+  color: #221f28;
+  font-weight: bold;
+}
+
+.submit {
+  color: #c5cae8;
+}
+
+.error {
+  color: #8d3600;
 }/*# sourceMappingURL=styles.css.map */

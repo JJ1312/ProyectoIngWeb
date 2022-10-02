@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">SIN NOMBRE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/perfil.html">Perfil</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Artes</a></li>
+                            <li><a class="dropdown-item" href="#">Informatica</a></li>
+                            <li><a class="dropdown-item" href="#">Matematica</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container-fluid description-course">
+        <section class="row descrption">
+            <div class="col-12 col-md-8">
+                <h2 class="h2-section">Nombre curso.</h2>
+                    <ul class="categoria">
+                        <li>Categoria1</li>
+                        <li>Categoria2</li>
+                        <li>Categoria3</li>
+                    </ul>                
+                <h2 class="h2-section">Descripcion</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, eos? Earum iste quidem voluptatem? Quod, ipsum? Consequuntur rerum quibusdam ratione numquam qui dignissimos fuga officia! Iusto aliquam rem quas voluptate?</p>
+            </div>
+            <div class="col-12 col-md-4 ms-auto">
+                <img class="img-perfil " src="../img/perfil_590x568.jpg" alt="Foto perfil creador curso." height="200">
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid course-content">
+        <div class="row">
+            <div class="col-xs-12 col-md-2">
+              <nav id="navbar-items" class="flex-column align-items-stretch  border-end">
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#item-1">Item 1</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Item 2</a>
+                  <a class="nav-link" href="#item-3">Item 3</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-xs-12 col-md-7">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-items" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4>Item 1</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                </div>
+                <div id="item-1-1">
+                  <h5>Item 1-1</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                    <img src="../img/pirate-flag_600x400.png" alt="Bandera pirata" width="300">
+                </div>
+                <div id="item-1-2">
+                  <h5>Item 1-2</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                </div>
+                <div id="item-2">
+                  <h4>Item 2</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                </div>
+                <div id="item-3">
+                  <h4>Item 3</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                </div>
+                <div id="item-3-1">
+                  <h5>Item 3-1</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                </div>
+                <div id="item-3-2">
+                  <h5>Item 3-2</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perferendis non dolorum consequatur suscipit quisquam nesciunt omnis molestias corrupti. Impedit magnam dignissimos quidem quae hic, tempore reprehenderit esse placeat quibusdam.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-3">
+                <div class="valoracion">
+                    <h5>Pedro piedra</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis rem corrupti, facilis atque nisi expedita iusto excepturi dolores doloremque quae vero rerum veniam fugiat, odit asperiores debitis molestiae assumenda.</p>
+                </div>
+                <div class="valoracion">
+                    <h5>Mon couer</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis rem corrupti, facilis atque nisi expedita iusto excepturi dolores doloremque quae vero rerum veniam fugiat, odit asperiores debitis molestiae assumenda.</p>
+                </div>
+                <div class="valoracion">
+                    <h5>Calabaza</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia veritatis rem corrupti, facilis atque nisi expedita iusto excepturi dolores doloremque quae vero rerum veniam fugiat, odit asperiores debitis molestiae assumenda.</p>
+                </div>
+            </div>
+          </div>
+    </div>
+    <!--SCRIPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+</body>
+</html>
